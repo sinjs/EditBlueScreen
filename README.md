@@ -8,8 +8,8 @@ Allows you to overwrite your bluescreen color and text contents using a Windows 
 
 If you want to change the text and color of the bluescreen, you can edit the `Config.h` file. The file contains the following fields:
 
-```c
-#define BSOD_FACE			L":3"
+```cpp
+#define BSOD_FACE           L":3"
 #define BSOD_FIRST_MESSAGE  L"Go fuck yourself!"
 #define BSOD_SECOND_MESSAGE L"You're ass at coding!"
 #define BSOD_COLOR          0xFFDD1CC4               // Stored as: 0xAARRGGBB
